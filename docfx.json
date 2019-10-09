@@ -1,0 +1,36 @@
+{
+    "build": {
+      "content": [
+        {
+          "files": [
+            "index.md",
+            "articles/**/*.md",
+            "articles/**/toc.md"
+          ],
+          "exclude": [
+            "articles/**/README.md"
+          ]
+        }
+      ],
+      "resource": [
+        {
+          "files": [
+            "articles/**/images/**"
+          ]
+        }
+      ],
+      "dest": "static",
+      "globalMetadataFiles": [],
+      "fileMetadataFiles": [],
+      "template": [
+        "default",
+        "templates/material"
+      ],
+      "postProcessors": [],
+      "markdownEngineName": "markdig",
+      "noLangKeyword": false,
+      "keepFileLink": false,
+      "cleanupCacheHistory": false,
+      "disableGitFeatures": false
+    }
+  }

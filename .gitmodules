@@ -1,0 +1,4 @@
+[submodule "articles/superstructure"]
+	path = articles/superstructure
+	url = https://github.com/eevio/docs-superstructure.git
+	branch = tjr/ss-start
