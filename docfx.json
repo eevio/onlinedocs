@@ -15,6 +15,7 @@
       "resource": [
         {
           "files": [
+            "images/*",
             "articles/**/images/**"
           ]
         }
