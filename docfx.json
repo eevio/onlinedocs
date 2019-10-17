@@ -33,5 +33,28 @@
       "keepFileLink": false,
       "cleanupCacheHistory": false,
       "disableGitFeatures": false
+    },
+    "pdf": {
+      "content": [
+        {
+          "files": [
+            "index.md",
+            "articles/**/*.md",
+            "articles/**/toc.md"
+          ],
+          "exclude": [
+            "articles/**/README.md"
+          ]
+        }
+      ],
+      "resource": [
+        {
+          "files": [
+            "images/*",
+            "articles/**/images/**"
+          ]
+        }
+      ],
+      "dest": "pdf"
     }
   }
